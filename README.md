@@ -1,8 +1,8 @@
-# Adm-de-dados
+# Adm-de-dados💻
 projeto sobre admnistração de dados ministrado por Henrique Poyatos.
 
 
-## Projeto: Consulta de Dados de Asteroides com API da NASA
+## Projeto: Consulta de Dados de Asteroides com API da NASA 🌕
 
 Este projeto é um script Python que consulta a API de Near Earth Objects (NEO) da NASA para obter informações sobre asteroides que passarão próximos à Terra em um intervalo de datas especificado pelo usuário. O script coleta informações detalhadas sobre os asteroides, incluindo nome, velocidade relativa e diâmetro estimado. Os dados são organizados em um DataFrame do pandas e podem ser exportados para um arquivo CSV.
 
