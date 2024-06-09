@@ -86,7 +86,7 @@ e poderá entra no power bi e começar a fazer o layout para funcionamento da ap
 
 entrar em contato.
 
-##codigo fonte para o poweb
+##codigo fonte para o power bi
 
 import requests
 import pandas as pd
@@ -102,7 +102,6 @@ def fetch_asteroid_data(start_date, end_date, api_key):
         "end_date": end_date,
         "api_key": api_key
     }
-    
     # Usado um try-except
     try:
         response = requests.get(url, params=parameters)
@@ -128,8 +127,6 @@ def fetch_asteroid_data(start_date, end_date, api_key):
     except KeyError as e:
         print(f"Erro ao processar dados: {e}")
         return None
-
-
 def main():
     # chave da api
     api_key = 'uTfP3czlwNl3ajaAj7AUjLL3CQP396MVjvJGjlKz'
